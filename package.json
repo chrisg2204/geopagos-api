@@ -1,0 +1,32 @@
+{
+  "name": "gopagos-api",
+  "version": "1.0.0",
+  "description": "a geopagos web-service",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=production && node index",
+    "dev": "set NODE_ENV=development && nodemon",
+    "build-docs": "grunt generate-docs"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chalk": "^2.3.2",
+    "cors": "2.8.1",
+    "express": "^4.14.0",
+    "loglevel": "^1.4.1",
+    "moment": "^2.17.1",
+    "pg": "6.1.0",
+    "pg-hstore": "2.3.2",
+    "sequelize": "^3.24.5",
+    "uuid": "^3.2.1",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-apidoc": "^0.11.0",
+    "grunt-contrib-yuidoc": "^1.0.0",
+    "nodemon": "^1.17.2"
+  },
+  "author": "chrisg2204",
+  "license": "MIT"
+}

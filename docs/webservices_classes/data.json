@@ -1,0 +1,1950 @@
+{
+    "project": {
+        "name": "gopagos-api",
+        "description": "a geopagos web-service",
+        "version": "1.0.0",
+        "url": ""
+    },
+    "files": {
+        "config\\App.js": {
+            "name": "config\\App.js",
+            "modules": {
+                "config": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "config\\Db.js": {
+            "name": "config\\Db.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "controllers\\SaleController.js": {
+            "name": "controllers\\SaleController.js",
+            "modules": {},
+            "classes": {
+                "SaleController": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "controllers\\UserController.js": {
+            "name": "controllers\\UserController.js",
+            "modules": {},
+            "classes": {
+                "UserController": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "controllers\\index.js": {
+            "name": "controllers\\index.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "docs\\services\\utils\\handlebars_helper.js": {
+            "name": "docs\\services\\utils\\handlebars_helper.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "docs\\services\\utils\\send_sample_request.js": {
+            "name": "docs\\services\\utils\\send_sample_request.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "docs\\services\\vendor\\path-to-regexp\\index.js": {
+            "name": "docs\\services\\vendor\\path-to-regexp\\index.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "docs\\services\\vendor\\lodash.custom.min.js": {
+            "name": "docs\\services\\vendor\\lodash.custom.min.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "docs\\services\\main.js": {
+            "name": "docs\\services\\main.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "middlewares\\EnableCrossDomain.js": {
+            "name": "middlewares\\EnableCrossDomain.js",
+            "modules": {
+                "middleware": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "middlewares\\index.js": {
+            "name": "middlewares\\index.js",
+            "modules": {
+                "controllers": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "models\\Sales.js": {
+            "name": "models\\Sales.js",
+            "modules": {
+                "models": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "models\\Users.js": {
+            "name": "models\\Users.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "models\\UsersSales.js": {
+            "name": "models\\UsersSales.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "models\\index.js": {
+            "name": "models\\index.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "utils\\ModuleFactoryUtil.js": {
+            "name": "utils\\ModuleFactoryUtil.js",
+            "modules": {
+                "utils": 1
+            },
+            "classes": {
+                "ModuleFactoryUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "utils\\ResponseUtil.js": {
+            "name": "utils\\ResponseUtil.js",
+            "modules": {},
+            "classes": {
+                "ResponseUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "utils\\ValidateUtil.js": {
+            "name": "utils\\ValidateUtil.js",
+            "modules": {},
+            "classes": {
+                "ValidateUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "Gruntfile.js": {
+            "name": "Gruntfile.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "index.js": {
+            "name": "index.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "routes.js": {
+            "name": "routes.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "config": {
+            "name": "config",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "config\\App.js",
+            "line": 4,
+            "description": "Objeto con las propiedades de configuración principal.",
+            "type": "{Object}"
+        },
+        "controllers": {
+            "name": "controllers",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "SaleController": 1,
+                "UserController": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "controllers\\UserController.js",
+            "line": 16,
+            "description": "Exporta todos los middlewares.",
+            "type": "{Object}"
+        },
+        "middleware": {
+            "name": "middleware",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "middlewares\\EnableCrossDomain.js",
+            "line": 3,
+            "description": "Habilita soporte CORS.",
+            "type": "{Object}"
+        },
+        "models": {
+            "name": "models",
+            "submodules": {},
+            "elements": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "models\\Sales.js",
+            "line": 6,
+            "description": "Modelo encargado de realizar las operaciones\nde base de dato para la entidad sales.",
+            "type": "{Object}"
+        },
+        "utils": {
+            "name": "utils",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "ModuleFactoryUtil": 1,
+                "ResponseUtil": 1,
+                "ValidateUtil": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "utils\\ValidateUtil.js",
+            "line": 3,
+            "description": "Factory para manejar instancias."
+        }
+    },
+    "classes": {
+        "SaleController": {
+            "name": "SaleController",
+            "shortname": "SaleController",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "controllers",
+            "namespace": "",
+            "file": "controllers\\SaleController.js",
+            "line": 16,
+            "description": "Controlador para las operaciones de Ventas."
+        },
+        "UserController": {
+            "name": "UserController",
+            "shortname": "UserController",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "controllers",
+            "namespace": "",
+            "file": "controllers\\UserController.js",
+            "line": 16,
+            "description": "Controlador para las operaciones de Usuarios."
+        },
+        "ModuleFactoryUtil": {
+            "name": "ModuleFactoryUtil",
+            "shortname": "ModuleFactoryUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "utils",
+            "namespace": "",
+            "file": "utils\\ModuleFactoryUtil.js",
+            "line": 8,
+            "description": "Factory para manejar instancias."
+        },
+        "ResponseUtil": {
+            "name": "ResponseUtil",
+            "shortname": "ResponseUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "utils",
+            "namespace": "",
+            "file": "utils\\ResponseUtil.js",
+            "line": 3,
+            "description": "Clase Utilitaria ResponseUtil."
+        },
+        "ValidateUtil": {
+            "name": "ValidateUtil",
+            "shortname": "ValidateUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "utils",
+            "namespace": "",
+            "file": "utils\\ValidateUtil.js",
+            "line": 3,
+            "description": "Clase para manejar las validaciones."
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "config\\App.js",
+            "line": 11,
+            "description": "Ruta del web-service.",
+            "itemtype": "property",
+            "name": "API_LOCATION",
+            "class": "SaleController",
+            "module": "config"
+        },
+        {
+            "file": "config\\App.js",
+            "line": 16,
+            "description": "Puerto de producción.",
+            "itemtype": "property",
+            "name": "API_PORT",
+            "class": "SaleController",
+            "module": "config"
+        },
+        {
+            "file": "config\\App.js",
+            "line": 21,
+            "description": "Puerto para pruebas unitarias.",
+            "itemtype": "property",
+            "name": "TEST_API_PORT",
+            "class": "SaleController",
+            "module": "config"
+        },
+        {
+            "file": "config\\App.js",
+            "line": 26,
+            "description": "Email que se usa para debugear.",
+            "itemtype": "property",
+            "name": "DEBUG_MAIL",
+            "class": "SaleController",
+            "module": "config"
+        },
+        {
+            "file": "config\\App.js",
+            "line": 31,
+            "description": "Url del web-service.",
+            "itemtype": "property",
+            "name": "SERVICE_URL",
+            "class": "SaleController",
+            "module": "config"
+        },
+        {
+            "file": "config\\App.js",
+            "line": 36,
+            "description": "Especifica si el servidor va a tener multiples hilos de conexion.",
+            "itemtype": "property",
+            "name": "MULTI_THREAD",
+            "class": "SaleController",
+            "module": "config"
+        },
+        {
+            "file": "config\\App.js",
+            "line": 44,
+            "description": "Midlewares que van a ser precargados a las rutas creadas.",
+            "itemtype": "property",
+            "name": "MIDDLEWARES_AUTOLOAD",
+            "class": "SaleController",
+            "module": "config"
+        },
+        {
+            "file": "config\\Db.js",
+            "line": 9,
+            "description": "Muestra las sentencias SQL ejecutadas por el ORM.",
+            "itemtype": "property",
+            "name": "LOG_SEQUELIZE_TRANSACTIONS",
+            "class": "SaleController",
+            "module": "config"
+        },
+        {
+            "file": "config\\Db.js",
+            "line": 14,
+            "description": "Contiene los parametros de configuracion de las bases de datos\nque van a ser usadas por la aplicación.",
+            "var": "DATABASE",
+            "type": "Object",
+            "class": "SaleController",
+            "module": "config"
+        },
+        {
+            "file": "config\\Db.js",
+            "line": 21,
+            "description": "Conexión de base de datos.",
+            "itemtype": "property",
+            "name": "DATABASE_CONFIG",
+            "class": "SaleController",
+            "module": "config"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 7,
+            "description": "Return a text as markdown.\nCurrently only a little helper to replace apidoc-inline Links (#Group:Name).\nShould be replaced with a full markdown lib.",
+            "params": [
+                {
+                    "name": "string",
+                    "description": "text"
+                }
+            ],
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 24,
+            "description": "start/stop timer for simple performance check.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 38,
+            "description": "Return localized Text.",
+            "params": [
+                {
+                    "name": "string",
+                    "description": "text"
+                }
+            ],
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 46,
+            "description": "Console log.",
+            "params": [
+                {
+                    "name": "mixed",
+                    "description": "obj"
+                }
+            ],
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 55,
+            "description": "Replace underscore with space.",
+            "params": [
+                {
+                    "name": "string",
+                    "description": "text"
+                }
+            ],
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 63,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 76,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 83,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 98,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 113,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 126,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 133,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 141,
+            "description": "Convert Newline to HTML-Break (nl2br).",
+            "params": [
+                {
+                    "name": "text",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 151,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 176,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 204,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 211,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 218,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 231,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 256,
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\handlebars_helper.js",
+            "line": 326,
+            "description": "Overwrite Colors",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\utils\\send_sample_request.js",
+            "line": 177,
+            "description": "Exports.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\vendor\\path-to-regexp\\index.js",
+            "line": 5,
+            "description": "Expose `pathToRegexp`.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\vendor\\path-to-regexp\\index.js",
+            "line": 10,
+            "description": "The main path matching regexp utility.",
+            "type": "{RegExp}",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\vendor\\path-to-regexp\\index.js",
+            "line": 29,
+            "description": "Escape the capturing group by escaping special characters and meaning.",
+            "params": [
+                {
+                    "name": "group",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\vendor\\path-to-regexp\\index.js",
+            "line": 39,
+            "description": "Attach the keys as a property of the regexp.",
+            "params": [
+                {
+                    "name": "re",
+                    "description": "",
+                    "type": "RegExp"
+                },
+                {
+                    "name": "keys",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "RegExp"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\vendor\\path-to-regexp\\index.js",
+            "line": 51,
+            "description": "Get the flags for a regexp from the options.",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\vendor\\path-to-regexp\\index.js",
+            "line": 61,
+            "description": "Pull out keys from a regexp.",
+            "params": [
+                {
+                    "name": "path",
+                    "description": "",
+                    "type": "RegExp"
+                },
+                {
+                    "name": "keys",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "RegExp"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\vendor\\path-to-regexp\\index.js",
+            "line": 86,
+            "description": "Transform an array into a regexp.",
+            "params": [
+                {
+                    "name": "path",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "keys",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "RegExp"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\vendor\\path-to-regexp\\index.js",
+            "line": 105,
+            "description": "Replace the specific tags with regexp strings.",
+            "params": [
+                {
+                    "name": "path",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "keys",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\vendor\\path-to-regexp\\index.js",
+            "line": 152,
+            "description": "Normalize the given path string, returning a regular expression.\n\nAn empty array can be passed in for the keys, which will hold the\nplaceholder key descriptions. For example, using `/user/:id`, `keys` will\ncontain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.",
+            "params": [
+                {
+                    "name": "path",
+                    "description": "",
+                    "type": "(String|RegExp|Array)"
+                },
+                {
+                    "name": "keys",
+                    "description": "",
+                    "type": "Array",
+                    "optional": true
+                },
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object",
+                    "optional": true
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "RegExp"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\vendor\\lodash.custom.min.js",
+            "line": 1,
+            "license": "Lodash (Custom Build) lodash.com/license | Underscore.js 1.8.3 underscorejs.org/LICENSE\nBuild: `lodash -p -o template/vendor/lodash.custom.min.js include=\"groupBy,each,extend,some\" exports=\"amd\"`",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 206,
+            "description": "Add navigation items by analyzing the HTML content and searching for h1 and h2 tags",
+            "params": [
+                {
+                    "name": "nav",
+                    "description": "Object the navigation array"
+                },
+                {
+                    "name": "content",
+                    "description": "string the compiled HTML content"
+                },
+                {
+                    "name": "index",
+                    "description": "where to insert items"
+                }
+            ],
+            "return": {
+                "description": "boolean true if any good-looking (i.e. with a group identifier) <h1> tag was found"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 396,
+            "description": "Check if Parameter (sub) List has a type Field.\nExample: @apiSuccess          varname1 No type.",
+            "apisuccess": "{String} varname2 With type.",
+            "params": [
+                {
+                    "name": "fields",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 411,
+            "description": "On Template changes, recall plugins.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 526,
+            "description": "Initialize search",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 534,
+            "description": "Set initial focus to search input",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 539,
+            "description": "Detect ESC key to reset search",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 546,
+            "description": "Search reset",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 557,
+            "description": "Change version of an article to compare it to an other version.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 653,
+            "description": "Compare all currently selected Versions with their predecessor.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 674,
+            "description": "Sort the fields.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 705,
+            "description": "Add article settings.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 743,
+            "description": "Render Article.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 762,
+            "description": "Render original Article and remove the current visible Article.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 781,
+            "description": "Load google fonts.",
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "docs\\services\\main.js",
+            "line": 796,
+            "description": "Return ordered entries by custom order and append not defined entries to the end.",
+            "params": [
+                {
+                    "name": "elements",
+                    "description": "",
+                    "type": "String[]"
+                },
+                {
+                    "name": "order",
+                    "description": "",
+                    "type": "String[]"
+                },
+                {
+                    "name": "splitBy",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Custom ordered list.",
+                "type": "String[]"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "controllers"
+        },
+        {
+            "file": "models\\Sales.js",
+            "line": 52,
+            "description": "Relaciona los modelos entre si.",
+            "itemtype": "method",
+            "name": "associate",
+            "params": [
+                {
+                    "name": "models",
+                    "description": "modelos listados",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "models"
+        },
+        {
+            "file": "models\\Users.js",
+            "line": 63,
+            "description": "Relaciona los modelos entre si.",
+            "itemtype": "method",
+            "name": "associate",
+            "params": [
+                {
+                    "name": "models",
+                    "description": "modelos listados",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "models"
+        },
+        {
+            "file": "models\\UsersSales.js",
+            "line": 39,
+            "description": "Relaciona los modelos entre si.",
+            "itemtype": "method",
+            "name": "associate",
+            "params": [
+                {
+                    "name": "models",
+                    "description": "modelos listados",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "[description]",
+                "type": "[type]"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "models"
+        },
+        {
+            "file": "utils\\ModuleFactoryUtil.js",
+            "line": 19,
+            "description": "Obtiene la instancia de SequelizeJS.",
+            "itemtype": "method",
+            "name": "getSequelizeInstance",
+            "return": {
+                "description": "instancia de SequelizeJS",
+                "type": "Object"
+            },
+            "class": "ModuleFactoryUtil",
+            "module": "utils"
+        },
+        {
+            "file": "utils\\ResponseUtil.js",
+            "line": 12,
+            "description": "Centraliza el manejo de respuestas en el api.",
+            "itemtype": "method",
+            "name": "sendResponse",
+            "params": [
+                {
+                    "name": "res",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "status",
+                    "description": "",
+                    "type": "Integer"
+                },
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "success",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "class": "ResponseUtil",
+            "module": "utils"
+        },
+        {
+            "file": "Gruntfile.js",
+            "line": 6,
+            "description": "Archivo para el manejo de tareas\nllevados a cabo por GruntJS",
+            "name": "Gruntfile",
+            "type": "{Object}",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "index.js",
+            "line": 13,
+            "description": "Archivo Inicial del web-service.",
+            "name": "index",
+            "type": "{Object}",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "index.js",
+            "line": 21,
+            "description": "Agrega los middlewares a usar por defecto.",
+            "itemtype": "method",
+            "name": "loadMiddDefault",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "index.js",
+            "line": 36,
+            "description": "Inicializa el servicio.",
+            "itemtype": "method",
+            "name": "initService",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 10,
+            "description": "Objeto donde se listan las rutas disponibles,\njunto a sus respectivos controladores.",
+            "name": "routes",
+            "type": "{Object}",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 19,
+            "apidefine": "CustomContentType",
+            "apiheader": "{String=\"application/json\"} Content-Type",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 24,
+            "apidefine": "successResponse",
+            "apisuccess": "{Object} data     Data de respuesta.",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 31,
+            "apidefine": "errorResponse",
+            "apierror": "{Object} error     objeto de errores.",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 38,
+            "apiignore": "Not necesary",
+            "api": "{GET} /",
+            "apiversion": "0.0.1",
+            "apiname": "TestRoute",
+            "apigroup": "Test",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 49,
+            "api": "{POST} /user/add agrega un usuario",
+            "apiuse": "errorResponse",
+            "apiversion": "1.0.0",
+            "apiname": "add",
+            "apigroup": "User",
+            "apiparam": "{String} address  direccion.",
+            "apisuccess": "{Object} data     Datos de usuario.",
+            "apisuccessexample": "{json} Success-Response:\n    HTTP/1.1 200 OK\n    {\n       \"code\": 200,\n       \"data\": \"User Created\",\n       \"success\": true\n    }",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 78,
+            "api": "{POST} /user/approve aprueba un usuario",
+            "apiuse": "errorResponse",
+            "apiversion": "1.0.0",
+            "apiname": "approve",
+            "apigroup": "User",
+            "apiparam": "{String} email email del usuario.",
+            "apisuccess": "{Object} data     Datos de usuario.",
+            "apisuccessexample": "{json} Success-Response:\n    HTTP/1.1 200 OK\n    {\n       \"code\": 200,\n       \"data\": \"User approved\",\n       \"success\": true\n    }",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 104,
+            "api": "{PUT} /user/update actualiza un usuario",
+            "apiuse": "errorResponse",
+            "apiversion": "1.0.0",
+            "apiname": "update",
+            "apigroup": "User",
+            "apiparam": "{String} address nueva direccion.",
+            "apisuccess": "{Object} data     Datos de usuario.",
+            "apisuccessexample": "{json} Success-Response:\n    HTTP/1.1 200 OK\n    {\n       \"code\": 200,\n       \"data\": \"User updated\",\n       \"success\": true\n    }",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 133,
+            "api": "{DELETE} /user/disable desactiva un usuario",
+            "apiuse": "errorResponse",
+            "apiversion": "1.0.0",
+            "apiname": "disable",
+            "apigroup": "User",
+            "apiparam": "{String} email email del usuario.",
+            "apisuccess": "{Object} data     Datos de usuario.",
+            "apisuccessexample": "{json} Success-Response:\n    HTTP/1.1 200 OK\n    {\n       \"code\": 200,\n       \"data\": \"User disabled\",\n       \"success\": true\n    }",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 159,
+            "api": "{POST} /user/sale genera una venta",
+            "apiuse": "errorResponse",
+            "apiversion": "1.0.0",
+            "apiname": "makeSale",
+            "apigroup": "Sales",
+            "apiparam": "{String} amount monto.",
+            "apisuccess": "{Object} data     Datos de la venta.",
+            "apisuccessexample": "{json} Success-Response:\n    HTTP/1.1 200 OK\n    {\n       \"code\": 200,\n       \"data\": \"Sale Created\",\n       \"success\": true\n    }",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 186,
+            "api": "{DELETE} /user/sale cancela una venta",
+            "apiuse": "errorResponse",
+            "apiversion": "1.0.0",
+            "apiname": "cancelSale",
+            "apigroup": "Sales",
+            "apiparam": "{String} uuid Identificador unico de la venta.",
+            "apisuccess": "{Object} data     Datos de la venta.",
+            "apisuccessexample": "{json} Success-Response:\n    HTTP/1.1 200 OK\n    {\n       \"code\": 200,\n       \"data\": \"Sale disabled\",\n       \"success\": true\n    }",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 212,
+            "api": "{GET} /user/sale Lista las ventas por usuario",
+            "apiuse": "errorResponse",
+            "apiversion": "1.0.0",
+            "apiname": "findUserRelationship",
+            "apigroup": "Sales",
+            "apiparam": "{String} email Email del usuario a consultar (queryParam).",
+            "apisuccess": "{Object} data     Datos de usuario y ventas.",
+            "apisuccessexample": "{json} Success-Response:\n    HTTP/1.1 200 OK\n    {\n       \"code\": 200,\n           \"data\": [\n               {\n                   \"UsersSalesId\": 1,\n                   \"userId\": 1,\n                   \"saleId\": 10,\n                   \"sale\": {\n                       \"saleId\": 10,\n                       \"uuid\": \"d8f67bd0-586a-11e8-be68-2534d4e37682\",\n                       \"userEmail\": \"christiang15@hotmail.com\",\n                       \"saleDate\": \"2018-05-15T17:07:31.913Z\",\n                       \"saleAmount\": \"100\",\n                       \"saleStatus\": false\n                   }\n               },\n               {\n                   \"UsersSalesId\": 2,\n                   \"userId\": 1,\n                   \"saleId\": 9,\n                   \"sale\": {\n                       \"saleId\": 9,\n                       \"uuid\": \"cdfdf370-586a-11e8-b62c-f116151c6c43\",\n                       \"userEmail\": \"christiang15@hotmail.com\",\n                       \"saleDate\": \"2018-05-15T17:07:15.468Z\",\n                       \"saleAmount\": \"200\",\n                       \"saleStatus\": true\n                   }\n               },\n               {\n                   \"UsersSalesId\": 3,\n                   \"userId\": 1,\n                   \"saleId\": 8,\n                   \"sale\": {\n                       \"saleId\": 8,\n                       \"uuid\": \"bfb68e30-586a-11e8-9365-ad0a948dee97\",\n                       \"userEmail\": \"christiang15@hotmail.com\",\n                       \"saleDate\": \"2018-05-15T17:06:49.890Z\",\n                       \"saleAmount\": \"300\",\n                       \"saleStatus\": true\n                   }\n               }\n           ],\n           \"success\": true\n    }",
+            "class": "",
+            "module": "utils"
+        },
+        {
+            "file": "routes.js",
+            "line": 278,
+            "api": "{GET} /user/all Lista usuarios y ventas",
+            "apiuse": "errorResponse",
+            "apiversion": "1.0.0",
+            "apiname": "findAllUsersAndSales",
+            "apigroup": "User",
+            "apisuccess": "{Object} data     Datos de usuario y ventas.",
+            "apisuccessexample": "{json} Success-Response:\n    HTTP/1.1 200 OK\n    {\n       \"code\": 200,\n       \"data\": [\n           {\n               \"ids\": 2,\n               \"email\": \"elbriag@hotmail.com\",\n               \"firstname\": \"gabriel\",\n               \"lastname\": \"gimenez\",\n               \"address\": \"williams 1319\",\n               \"status\": true,\n               \"total\": \"494.20\",\n               \"num_vetas\": \"7\"\n           },\n           {\n               \"ids\": 1,\n               \"email\": \"christiang15@hotmail.com\",\n               \"firstname\": \"christian\",\n               \"lastname\": \"gimenez\",\n               \"address\": \"williams 1319\",\n               \"status\": true,\n               \"total\": \"600\",\n               \"num_vetas\": \"7\"\n           }\n       ],\n       \"success\": true\n    }",
+            "class": "",
+            "module": "utils"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: name",
+            "line": " config\\App.js:4"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " config\\Db.js:1"
+        },
+        {
+            "message": "unknown tag: var",
+            "line": " config\\Db.js:14"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " controllers\\index.js:7"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " docs\\services\\utils\\handlebars_helper.js:141"
+        },
+        {
+            "message": "unknown tag: license",
+            "line": " docs\\services\\vendor\\lodash.custom.min.js:1"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " docs\\services\\main.js:396"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " middlewares\\EnableCrossDomain.js:3"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " middlewares\\index.js:7"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " models\\Sales.js:6"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " models\\Users.js:6"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " models\\UsersSales.js:3"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " models\\index.js:12"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " Gruntfile.js:6"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " index.js:13"
+        },
+        {
+            "message": "unknown tag: name",
+            "line": " routes.js:10"
+        },
+        {
+            "message": "unknown tag: apidefine",
+            "line": " routes.js:19"
+        },
+        {
+            "message": "unknown tag: apiheader",
+            "line": " routes.js:19"
+        },
+        {
+            "message": "unknown tag: apidefine",
+            "line": " routes.js:24"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:24"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:24"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:24"
+        },
+        {
+            "message": "unknown tag: apidefine",
+            "line": " routes.js:31"
+        },
+        {
+            "message": "unknown tag: apierror",
+            "line": " routes.js:31"
+        },
+        {
+            "message": "unknown tag: apierror",
+            "line": " routes.js:31"
+        },
+        {
+            "message": "unknown tag: apierror",
+            "line": " routes.js:31"
+        },
+        {
+            "message": "unknown tag: apiignore",
+            "line": " routes.js:38"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " routes.js:38"
+        },
+        {
+            "message": "unknown tag: apiversion",
+            "line": " routes.js:38"
+        },
+        {
+            "message": "unknown tag: apiname",
+            "line": " routes.js:38"
+        },
+        {
+            "message": "unknown tag: apigroup",
+            "line": " routes.js:38"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apiversion",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apiname",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apigroup",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: apisuccessexample",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "unknown tag: apiversion",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "unknown tag: apiname",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "unknown tag: apigroup",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "unknown tag: apisuccessexample",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apiversion",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apiname",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apigroup",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: apisuccessexample",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "unknown tag: apiversion",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "unknown tag: apiname",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "unknown tag: apigroup",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "unknown tag: apisuccessexample",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: apiversion",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: apiname",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: apigroup",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: apisuccessexample",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "unknown tag: apiversion",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "unknown tag: apiname",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "unknown tag: apigroup",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "unknown tag: apisuccessexample",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "unknown tag: apiversion",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "unknown tag: apiname",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "unknown tag: apigroup",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "unknown tag: apiparam",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "unknown tag: apisuccessexample",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "unknown tag: api",
+            "line": " routes.js:278"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:278"
+        },
+        {
+            "message": "unknown tag: apiversion",
+            "line": " routes.js:278"
+        },
+        {
+            "message": "unknown tag: apiname",
+            "line": " routes.js:278"
+        },
+        {
+            "message": "unknown tag: apigroup",
+            "line": " routes.js:278"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:278"
+        },
+        {
+            "message": "unknown tag: apiuse",
+            "line": " routes.js:278"
+        },
+        {
+            "message": "unknown tag: apisuccess",
+            "line": " routes.js:278"
+        },
+        {
+            "message": "unknown tag: apisuccessexample",
+            "line": " routes.js:278"
+        },
+        {
+            "message": "Missing item type\nContiene los parametros de configuracion de las bases de datos\nque van a ser usadas por la aplicación.",
+            "line": " config\\Db.js:14"
+        },
+        {
+            "message": "Missing item type\nReturn a text as markdown.\nCurrently only a little helper to replace apidoc-inline Links (#Group:Name).\nShould be replaced with a full markdown lib.",
+            "line": " docs\\services\\utils\\handlebars_helper.js:7"
+        },
+        {
+            "message": "Missing item type\nstart/stop timer for simple performance check.",
+            "line": " docs\\services\\utils\\handlebars_helper.js:24"
+        },
+        {
+            "message": "Missing item type\nReturn localized Text.",
+            "line": " docs\\services\\utils\\handlebars_helper.js:38"
+        },
+        {
+            "message": "Missing item type\nConsole log.",
+            "line": " docs\\services\\utils\\handlebars_helper.js:46"
+        },
+        {
+            "message": "Missing item type\nReplace underscore with space.",
+            "line": " docs\\services\\utils\\handlebars_helper.js:55"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:63"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:76"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:83"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:98"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:113"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:126"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:133"
+        },
+        {
+            "message": "Missing item type\nConvert Newline to HTML-Break (nl2br).",
+            "line": " docs\\services\\utils\\handlebars_helper.js:141"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:151"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:176"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:204"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:211"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:218"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:231"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\utils\\handlebars_helper.js:256"
+        },
+        {
+            "message": "Missing item type\nOverwrite Colors",
+            "line": " docs\\services\\utils\\handlebars_helper.js:326"
+        },
+        {
+            "message": "Missing item type\nExports.",
+            "line": " docs\\services\\utils\\send_sample_request.js:177"
+        },
+        {
+            "message": "Missing item type\nExpose `pathToRegexp`.",
+            "line": " docs\\services\\vendor\\path-to-regexp\\index.js:5"
+        },
+        {
+            "message": "Missing item type\nThe main path matching regexp utility.",
+            "line": " docs\\services\\vendor\\path-to-regexp\\index.js:10"
+        },
+        {
+            "message": "Missing item type\nEscape the capturing group by escaping special characters and meaning.",
+            "line": " docs\\services\\vendor\\path-to-regexp\\index.js:29"
+        },
+        {
+            "message": "Missing item type\nAttach the keys as a property of the regexp.",
+            "line": " docs\\services\\vendor\\path-to-regexp\\index.js:39"
+        },
+        {
+            "message": "Missing item type\nGet the flags for a regexp from the options.",
+            "line": " docs\\services\\vendor\\path-to-regexp\\index.js:51"
+        },
+        {
+            "message": "Missing item type\nPull out keys from a regexp.",
+            "line": " docs\\services\\vendor\\path-to-regexp\\index.js:61"
+        },
+        {
+            "message": "Missing item type\nTransform an array into a regexp.",
+            "line": " docs\\services\\vendor\\path-to-regexp\\index.js:86"
+        },
+        {
+            "message": "Missing item type\nReplace the specific tags with regexp strings.",
+            "line": " docs\\services\\vendor\\path-to-regexp\\index.js:105"
+        },
+        {
+            "message": "Missing item type\nNormalize the given path string, returning a regular expression.\n\nAn empty array can be passed in for the keys, which will hold the\nplaceholder key descriptions. For example, using `/user/:id`, `keys` will\ncontain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.",
+            "line": " docs\\services\\vendor\\path-to-regexp\\index.js:152"
+        },
+        {
+            "message": "Missing item type",
+            "line": " docs\\services\\vendor\\lodash.custom.min.js:1"
+        },
+        {
+            "message": "Missing item type\nAdd navigation items by analyzing the HTML content and searching for h1 and h2 tags",
+            "line": " docs\\services\\main.js:206"
+        },
+        {
+            "message": "Missing item type\nCheck if Parameter (sub) List has a type Field.\nExample: @apiSuccess          varname1 No type.",
+            "line": " docs\\services\\main.js:396"
+        },
+        {
+            "message": "Missing item type\nOn Template changes, recall plugins.",
+            "line": " docs\\services\\main.js:411"
+        },
+        {
+            "message": "Missing item type\nInitialize search",
+            "line": " docs\\services\\main.js:526"
+        },
+        {
+            "message": "Missing item type\nSet initial focus to search input",
+            "line": " docs\\services\\main.js:534"
+        },
+        {
+            "message": "Missing item type\nDetect ESC key to reset search",
+            "line": " docs\\services\\main.js:539"
+        },
+        {
+            "message": "Missing item type\nSearch reset",
+            "line": " docs\\services\\main.js:546"
+        },
+        {
+            "message": "Missing item type\nChange version of an article to compare it to an other version.",
+            "line": " docs\\services\\main.js:557"
+        },
+        {
+            "message": "Missing item type\nCompare all currently selected Versions with their predecessor.",
+            "line": " docs\\services\\main.js:653"
+        },
+        {
+            "message": "Missing item type\nSort the fields.",
+            "line": " docs\\services\\main.js:674"
+        },
+        {
+            "message": "Missing item type\nAdd article settings.",
+            "line": " docs\\services\\main.js:705"
+        },
+        {
+            "message": "Missing item type\nRender Article.",
+            "line": " docs\\services\\main.js:743"
+        },
+        {
+            "message": "Missing item type\nRender original Article and remove the current visible Article.",
+            "line": " docs\\services\\main.js:762"
+        },
+        {
+            "message": "Missing item type\nLoad google fonts.",
+            "line": " docs\\services\\main.js:781"
+        },
+        {
+            "message": "Missing item type\nReturn ordered entries by custom order and append not defined entries to the end.",
+            "line": " docs\\services\\main.js:796"
+        },
+        {
+            "message": "Missing item type\nArchivo para el manejo de tareas\nllevados a cabo por GruntJS",
+            "line": " Gruntfile.js:6"
+        },
+        {
+            "message": "Missing item type\nArchivo Inicial del web-service.",
+            "line": " index.js:13"
+        },
+        {
+            "message": "Missing item type\nObjeto donde se listan las rutas disponibles,\njunto a sus respectivos controladores.",
+            "line": " routes.js:10"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:19"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:24"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:31"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:38"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:49"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:78"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:104"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:133"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:159"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:186"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:212"
+        },
+        {
+            "message": "Missing item type",
+            "line": " routes.js:278"
+        }
+    ]
+}
